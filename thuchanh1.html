@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và thao tác với mảng</title>
+</head>
+<body>
+<h2>Sample Screen</h2>
+<input type="text" id="valueText">
+<button onclick="myAdd()">Add</button>
+<button onclick="myDisplay()">Display</button>
+<div id="result"></div>
+<script>
+    let x = 0;
+    let array = Array();
+
+    function myAdd() {
+        array[x] = document.getElementById('valueText').value;
+        alert('Thêm ' + array[x] + ' vào mảng');
+        x++;
+        document.getElementById('valueText').value = '';
+    }
+
+    function myDisplay() {
+        let e = '<br>';
+        for (let i = 0; i < array.length; i++) {
+            e += ('Giá trị thứ ' + (i + 1) + ' của mảng là: ' + array[i] + '<br>');
+        }
+        document.getElementById('result').innerHTML = e;
+    }
+</script>
+</body>
+</html>
