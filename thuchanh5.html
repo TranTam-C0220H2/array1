@@ -5,6 +5,30 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let count = 0;
+    let myArray = Array();
+    count = +prompt('Nhập số phần tử của mảng: ');
+    initArray();
+    showArray();
+    alert('Tổng các phần tử ngẫu nhiên của mảng: ' + calSum());
 
+    function initArray() {
+        for (let i = 0; i < count; i++)
+            myArray.push(Math.round(1000 * Math.random()));
+    }
+
+    function showArray() {
+        for (let i = 0; i < count; i++)
+            console.log(myArray[i]);
+    }
+
+    function calSum() {
+        let sum = 0;
+        for (let i = 0; i < count; i++)
+            sum += myArray[i];
+        return sum;
+    }
+</script>
 </body>
 </html>
