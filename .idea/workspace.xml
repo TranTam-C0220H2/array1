@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de4166e0-2f9e-4dd6-94d5-28b204e293b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thuchanh5.html" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanh5.html" afterDir="false" />
-    </list>
+    <list default="true" id="de4166e0-2f9e-4dd6-94d5-28b204e293b5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mang2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,6 +42,7 @@
       <updated>1583987131701</updated>
       <workItem from="1583987133758" duration="14788000" />
       <workItem from="1584067153981" duration="2758000" />
+      <workItem from="1584364981899" duration="173000" />
     </task>
     <servers />
   </component>
@@ -52,9 +50,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584074004239">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584365155092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584074004239" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584365155092" />
   </component>
 </project>

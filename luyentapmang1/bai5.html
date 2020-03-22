@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //Viết chương trình đếm số nguyên âm trong một chuỗi
+        let possible = 'abcdefghijklmnopqrstuvwxyz';
+        let vowel = 'aeiou';
+        let arr = [];
+        let t = 0;
+        for (let i = 0; i < 10; i++) {
+            arr[i] = possible.charAt(Math.round(Math.random() * possible.length));
+            for (let j = 0; j < 5; j++) {
+                if (arr[i] === vowel[j]) {
+                    t++;
+                }
+            }
+        }
+        document.write('Chuỗi 100 chữ cái bất kỳ là: ' + arr + '<br>');
+        document.write('Số nguyên âm trong chuỗi là: ' + t);
+    </script>
+</head>
+<body>
+</body>
+</html>

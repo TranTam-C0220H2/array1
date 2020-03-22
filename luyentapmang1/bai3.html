@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //Viết chương trình khởi tạo mảng số nguyên.
+        // Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các phần tử trong mảng.
+        let arr = [];
+        let Max = 0;
+        let j;
+        let S = 0;
+        let i;
+        for (i = 0; i < 10; i++) {
+            arr[i] = Math.round(Math.random() * 100);
+            S += arr[i];
+            if (arr[i] > Max) {
+                Max = arr[i];
+                j = i;
+            }
+        }
+        document.write(arr + '<br>');
+        document.write('Phần tử ' + Max + ' có giá trị lớn nhất trong mảng và nằm ở vị trí thứ ' + (j + 1) + '<br>');
+        document.write('Giá trị trung bình của các phần tử trong mảng là ' + S / i);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
